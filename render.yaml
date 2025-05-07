@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: korkem_screen_bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8110018320:AAHqYUR8Z4-6xRiN7TxasC6gA2mVXlmjKXo  # Өз токеніңді осы жерге қоясың
+      - key: ADMIN_ID
+        value: 921014083  # Өз Telegram ID-ңды осы жерге қоясың
